@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="life">Isn\'t life a collection of weird quizzes with \n no answers to half the questions</string>
+    <string name="welcome_to_quiz_master">Welcome To Quiz Master</string>
+    <string name="get_started">Get Started</string>
+    <string name="login_now">Login Now</string>
+    <string name="please_login_to_continue_using_app">Please login to continue using app</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
 </resources>
