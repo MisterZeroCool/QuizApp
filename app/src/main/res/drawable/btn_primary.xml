@@ -3,4 +3,5 @@
     <solid android:color="@color/colorPrimaryButtonBg"/>
     <corners android:radius="8dp"/>
     <size android:height="16dp"/>
+    <gradient android:startColor="#FFF" android:endColor="#345355"/>
 </shape>
