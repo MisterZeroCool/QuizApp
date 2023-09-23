@@ -1,6 +1,12 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.devtools.ksp")
+    id("com.google.gms.google-services")
+
+}
+kotlin {
+    jvmToolchain(8)
 }
 
 android {
@@ -33,11 +39,18 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
-
-    implementation("androidx.core:core-ktx:1.9.0")
+//for room
+    implementation("androidx.room:room-ktx:2.5.2")
+    implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
+    ksp("androidx.room:room-compiler:2.5.2")
+    implementation("androidx.core:core-ktx:1.10.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
