@@ -5,11 +5,16 @@
     <string name="name">Name</string>
     <string name="life">Isn\'t life a collection of weird quizzes with \n no answers to half the questions</string>
     <string name="welcome_to_quiz_master">Welcome To Quiz Master</string>
-    <string name="get_started">Get Started</string>
+    <string name="get_started">GET STARTED</string>
     <string name="login_now">Login Now</string>
     <string name="please_login_to_continue_using_app">Please login to continue using app</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="log_in">Log In</string>
+    <string name="log_in">LOG IN</string>
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="stay_connected">Stay Connected</string>
+    <string name="enter_your_email_address_and_password_nto_get_access_to_your_account">Enter your email address and password \nto get access to your account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="sign_up">SIGN UP</string>
 </resources>
