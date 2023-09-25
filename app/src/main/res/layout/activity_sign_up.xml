@@ -93,6 +93,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/wave_1_" />
+        android:src="@drawable/wave_1_"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

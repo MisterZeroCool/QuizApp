@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/master_icon2" />
+        android:src="@drawable/master_icon2" />
 
     <Button
         android:id="@+id/btnGetStarted"
@@ -63,5 +63,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/wave_1_" />
+        android:src="@drawable/wave_1_" />
 </androidx.constraintlayout.widget.ConstraintLayout>
