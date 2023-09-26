@@ -1,4 +1,4 @@
-package ru.malohelm.quizapp
+package ru.malohelm.quizapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
