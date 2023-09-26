@@ -17,4 +17,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="quiz_yourself_daily">Quiz YourSelf Daily</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="profile">Profile</string>
+    <string name="follow_us">Follow Us</string>
 </resources>
