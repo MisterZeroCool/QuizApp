@@ -19,5 +19,5 @@ data class Question(
     var optionl3: String = "",
     var optionl4: String = "",
     var answer: String = "",
-    var userAnswer: String,
+    var userAnswer: String = "",
 )
