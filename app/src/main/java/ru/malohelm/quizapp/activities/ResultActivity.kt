@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import com.google.gson.Gson
-import ru.malohelm.quizapp.R
 import ru.malohelm.quizapp.data.entity.Quiz
 import ru.malohelm.quizapp.databinding.ActivityResultBinding
 
@@ -21,7 +20,7 @@ class ResultActivity : AppCompatActivity() {
 
     private fun setUpViews() {
         val quizData = intent.getStringExtra("QUIZ")
-        val quiz = Gson().fromJson(quizData, Quiz::class.java)
+        quiz = Gson().fromJson(quizData, Quiz::class.java)
         calculateScore()
         setAnswerView()
     }
