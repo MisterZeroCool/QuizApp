@@ -12,7 +12,7 @@ import ru.malohelm.quizapp.data.entity.Question
 
 class OptionAdapter(val context: Context, val question: Question): RecyclerView.Adapter<OptionAdapter.OptionViewHolder>(){
 
-    private var options: List<String> = listOf(question.optionl1, question.optionl2, question.optionl3, question.optionl4)
+    private var options: List<String> = listOf(question.option1, question.option2, question.option3, question.option4)
     inner class OptionViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         var optionView = itemView.findViewById<TextView>(R.id.quiz_option)
     }

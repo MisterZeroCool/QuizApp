@@ -14,10 +14,10 @@ data class Question(
 //    val descriptionQuestion: String,
 
     var description: String = "",
-    var optionl1: String = "",
-    var optionl2: String = "",
-    var optionl3: String = "",
-    var optionl4: String = "",
+    var option1: String = "",
+    var option2: String = "",
+    var option3: String = "",
+    var option4: String = "",
     var answer: String = "",
     var userAnswer: String = "",
 )
