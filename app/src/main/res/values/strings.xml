@@ -24,4 +24,7 @@
     <string name="previous">Previous</string>
     <string name="submit">Submit</string>
     <string name="next">Next</string>
+    <string name="a_java">A: Java</string>
+    <string name="your_score_20">Your Score: 20</string>
+    <string name="log_out">Log Out</string>
 </resources>
